@@ -14,6 +14,10 @@ def main():
         count = count + 1
         num = random.randrange(0, 100)
         numbers.append(num)
+    
+    while (count < len(numbers)):
+        total = total + numbers[count]
+    
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
