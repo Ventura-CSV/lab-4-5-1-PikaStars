@@ -13,8 +13,7 @@ def main():
     while (count < 5):
         count = count + 1
         num = random.randrange(0, 100)
-        numbers.append[num]
-        print(num) 
+        numbers.append(num)
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
 
